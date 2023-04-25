@@ -13,12 +13,14 @@
 //	//整数在内存中存储的是补码
 //	//整数的二进制表示有三种：1.原码 2.反码 3.补码
 //	
-//	//如-1：
-//	//原码：10000000000000000000000000000001	第一位为符号位：1表示负数，0表示正数
-//	//反码：11111111111111111111111111111110    原码的符号位不变，其他位按位取反，即为反码
-//	//补码：11111111111111111111111111111111	反码的二进制序列加 1 即为补码
+//	/*
+//  如-1：
+//	原码：10000000000000000000000000000001	第一位为符号位：1表示负数，0表示正数
+//	反码：11111111111111111111111111111110    原码的符号位不变，其他位按位取反，即为反码
+//	补码：11111111111111111111111111111111	反码的二进制序列加 1 即为补码
+//	*/
 //	
-//	//正整数原码、补码、反码相同。
+//  //正整数原码、补码、反码相同。
 //	
 //
 //	// ++ 与 --
@@ -89,11 +91,14 @@
 //	//()调用函数时，函数名后面的()就是函数调用操作符
 //
 //
-//	//常用的关键字
-//	// auto break case char const continue default do double else enum 
-//	// extern float for goto if int long register return short signed sizeof 
-//	// static struct switch typedef union unsign void volatile while
-//	//1.c语言提供，不能自创关键字
+//	/*
+//  常用的关键字
+//	auto break case char const continue default do double else enum 
+//	extern float for goto if int long register return short signed sizeof 
+//	static struct switch typedef union unsign void volatile while
+//	*/
+//  
+//  //1.c语言提供，不能自创关键字
 //	//2.变量名不能为关键字
 //	
 //	// auto 自动 ：每个局部变量都是auto修饰的
